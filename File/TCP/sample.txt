@@ -1,0 +1,19 @@
+TCP FILE TRANSFER TEST
+
+This file is used to test file transfer using TCP sockets in C.
+
+The sender opens this file in binary read mode (rb).
+
+The sender reads the file in chunks of maximum 1024 bytes using fread().
+
+The data is sent through TCP using send().
+
+The receiver receives the data into its buffer using recv().
+
+Finally, fwrite() writes the received data into received.txt in binary write mode (wb).
+
+TCP provides reliable and ordered delivery of data.
+
+If the transfer is successful, the contents of sample.txt and received.txt should be identical.
+
+END OF TEST FILE.
