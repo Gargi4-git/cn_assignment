@@ -1,0 +1,29 @@
+# Compiled C/C++ files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+
+# Debug/build files
+*.pdb
+*.ilk
+*.idb
+Debug/
+Release/
+build/
+bin/
+obj/
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
